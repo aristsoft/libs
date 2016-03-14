@@ -10,16 +10,16 @@
 		<description homepage="http://${forge-project-id}.fusesource.org">
 		Jansi is a java library for generating and interpreting ANSI escape sequences.
 		</description>
-		<m:properties__slf4j-version>1.6.1</m:properties__slf4j-version>
-		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
-		<m:properties__scalamd-version>1.5</m:properties__scalamd-version>
-		<m:properties__scalate-version>1.5.1</m:properties__scalate-version>
-		<m:properties__jetty-plugin-version>7.0.1.v20091125</m:properties__jetty-plugin-version>
 		<m:properties__scala-plugin-version>2.15.2</m:properties__scala-plugin-version>
-		<m:properties__forge-project-id>jansi</m:properties__forge-project-id>
-		<m:maven.plugins>org.apache.maven.plugins__maven-scm-plugin__1.5|org.apache.maven.plugins__maven-scm-plugin__1.5|org.apache.maven.plugins__maven-site-plugin__3.0|org.apache.maven.plugins__maven-dependency-plugin__2.3</m:maven.plugins>
+		<m:properties__jetty-plugin-version>7.0.1.v20091125</m:properties__jetty-plugin-version>
+		<m:properties__slf4j-version>1.6.1</m:properties__slf4j-version>
 		<m:properties__scala-version>2.9.0-1</m:properties__scala-version>
+		<m:properties__scalate-version>1.5.1</m:properties__scalate-version>
 		<m:properties__forge-project-id-uc>JANSI</m:properties__forge-project-id-uc>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:maven.plugins>org.apache.maven.plugins__maven-scm-plugin__1.5|org.apache.maven.plugins__maven-scm-plugin__1.5|org.apache.maven.plugins__maven-site-plugin__3.0|org.apache.maven.plugins__maven-dependency-plugin__2.3</m:maven.plugins>
+		<m:properties__forge-project-id>jansi</m:properties__forge-project-id>
+		<m:properties__scalamd-version>1.5</m:properties__scalamd-version>
 	</info>
 	<configurations>
 		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>

@@ -10,12 +10,12 @@
 		<description homepage="http://${forge-project-id}.fusesource.org">
 		jansi is a java library for generating and interpreting ANSI escape sequences.
 		</description>
-		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
 		<m:properties__release-altGitURL>scm:git:ssh://git@forge.fusesource.com/${forge-project-id}.git</m:properties__release-altGitURL>
 		<m:properties__jansi-native-version>1.0</m:properties__jansi-native-version>
-		<m:properties__forge-project-id>jansi</m:properties__forge-project-id>
-		<m:maven.plugins>null__maven-clean-plugin__2.3|org.fusesource.mvnplugins__maven-uberize-plugin__1.5|null__maven-surefire-plugin__2.4.3|null__maven-compiler-plugin__null|org.apache.felix__maven-bundle-plugin__2.0.1|null__maven-jar-plugin__null|null__maven-release-plugin__2.0|null__maven-scm-plugin__1.3</m:maven.plugins>
 		<m:properties__forge-project-id-uc>JANSI</m:properties__forge-project-id-uc>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:maven.plugins>null__maven-clean-plugin__2.3|org.fusesource.mvnplugins__maven-uberize-plugin__1.5|null__maven-surefire-plugin__2.4.3|null__maven-compiler-plugin__null|org.apache.felix__maven-bundle-plugin__2.0.1|null__maven-jar-plugin__null|null__maven-release-plugin__2.0|null__maven-scm-plugin__1.3</m:maven.plugins>
+		<m:properties__forge-project-id>jansi</m:properties__forge-project-id>
 	</info>
 	<configurations>
 		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
